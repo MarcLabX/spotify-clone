@@ -73,7 +73,7 @@ h1 {
     font-family: "DM Sans", sans-serif;
 }
 
-.sidebar__navigation div ul li a {
+.sidebar__navigation div ul li a, .sidebar__navigation div ul li button {
     display: flex;
     gap: 16px;
     color: #d8c4c4;
@@ -82,7 +82,7 @@ h1 {
     font-size: 14px;
 }
 
-div .sidebar__navigation ul li a:hover {
+div .sidebar__navigation ul li a:hover, .sidebar__navigation div ul li button:hover {
     transition: 0.5s;
     color: #fff;
 }
@@ -95,6 +95,10 @@ div .sidebar__navigation ul li a:hover {
 
 .lib__minha {
     font-size: 16px;
+}
+
+.lib__minha-add {
+    all: unset;
 }
 
 .lib__minha-bg {
