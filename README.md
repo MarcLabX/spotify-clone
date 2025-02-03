@@ -13,7 +13,8 @@ Um clone do Spotify desenvolvido para fins educacionais, recriando a interface e
 - 🎵 API Fake do Spotify para simular requisições
 
 ## 📸 Demonstração
-![image](https://github.com/user-attachments/assets/da9ab30a-8ada-44ba-b6c9-20b1120f8fab)
+![image](https://github.com/user-attachments/assets/f88cae66-8c74-481c-8720-ae109073422c)
+![image](https://github.com/user-attachments/assets/e382c1c8-dc8e-48a2-a1c2-d6ad09baa003)
 
 ## 📄 Licença
 Este projeto é apenas para fins educacionais e não deve ser utilizado para fins comerciais.
