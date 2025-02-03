@@ -1,3 +1,64 @@
-@media screen {
-    
-}
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    .offer-list-item { grid-template-columns: repeat(3, 1fr); }
+  }
+  
+  @media (max-width: 768px) {
+    .offer-list-item { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+  @media (max-width: 480px) {
+    .offer-list-item { grid-template-columns: repeat(1, 1fr);}
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 1200px) {
+    .grid-container {
+      grid-template-columns: repeat(4, minmax(0, 1fr)); /* 4 colunas para telas grandes */
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 colunas para tablets */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 colunas para smartphones */
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* 1 coluna para telas muito pequenas */
+    }
+  
+    .artist-card {
+      padding: 8px; /* Menos padding em telas muito pequenas */
+    }
+  
+    .artist-name {
+      font-size: 0.875rem; /* Ajustando a fonte em telas menores */
+    }
+  
+    .artist-categorie {
+      font-size: 0.75rem; /* Ajustando a categoria em telas menores */
+    }
+  }
+  
+  /* Ajuste para evitar que os cards vazem em telas pequenas */
+  body {
+    overflow-x: hidden; /* Impede o overflow horizontal */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid-container {
+    width: 100%; /* Garantir que a grid ocupe toda a largura disponível */
+  }
+  
+  .artist-card {
+    max-width: 100%; /* Garante que os cards não ultrapassem o tamanho da grid */
+    box-sizing: border-box;}
