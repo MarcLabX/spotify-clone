@@ -1,4 +1,4 @@
-# 🎵 Spotify Frontend Clone
+# 🎵 Spotify Desktop Front-End Clone
 
 The **Spotify Frontend Clone** is a web application that replicates the design and experience of Spotify’s music platform.  
 Built with **HTML, CSS, and JavaScript**, it uses a **fake API** to simulate music data, playlists, and interactions, offering a realistic streaming interface. 🎧
